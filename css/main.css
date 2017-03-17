@@ -1,5 +1,5 @@
 html {
-  font-family: 'Abhaya Libre', serif;
+  font-family: "Abhaya Libre", serif;
 }
 
 .masthead {
@@ -19,8 +19,18 @@ a {
   border-radius: 10px;
 }
 
+.nav {
+  text-align: center;
+}
+
 @media only screen and (min-width: 60em) {
 
-  
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
 
 }
